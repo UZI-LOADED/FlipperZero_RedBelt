@@ -1,0 +1,12 @@
+# Bluetooth Auto-Connect Configuration File for Flipper Zero
+
+[Bluetooth]
+EnableBluetooth = true
+AutoConnect = true
+TargetDeviceName = TargetBluetoothDevice
+ConnectionAttempts = 5
+LogFile = bluetooth_auto_connect_log.txt
+
+[Logging]
+EnableLogging = true
+LogLevel = Info
