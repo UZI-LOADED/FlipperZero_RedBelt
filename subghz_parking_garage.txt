@@ -1,0 +1,7 @@
+# Sub-GHz Parking Garage Gate Test Configuration
+
+[Sub-GHz]
+EnableSubGhz = true
+DefaultFrequency = 433.92MHz
+HoppingFrequencies = 433.42MHz, 433.62MHz, 433.82MHz
+TransmitSignal = 0xDEADBEEFCAFE
