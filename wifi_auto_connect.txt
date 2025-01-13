@@ -1,0 +1,13 @@
+# WiFi Auto-Connect Configuration File for Flipper Zero
+
+[WiFi]
+EnableWiFi = true
+AutoConnect = true
+TargetSSID = TargetWiFiNetwork
+TargetPassword = SuperSecretPassword
+ConnectionAttempts = 5
+LogFile = wifi_auto_connect_log.txt
+
+[Logging]
+EnableLogging = true
+LogLevel = Info
