@@ -1,0 +1,12 @@
+# Bluetooth Jamming Configuration File for Flipper Zero (Educational Purpose Only)
+
+[Bluetooth]
+EnableBluetooth = true
+EnableJamming = true
+JamFrequency = 2.4GHz
+TargetDeviceName = TargetBluetoothDevice
+JamDuration = 30 # Duration in seconds
+
+[Logging]
+EnableLogging = true
+LogLevel = Warning
