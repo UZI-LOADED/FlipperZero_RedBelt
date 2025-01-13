@@ -1,0 +1,13 @@
+# RFID/NFC Arcade Key Emulation Configuration
+
+[RFID]
+EnableEmulation = true
+EmulationType = MifareClassic
+EmulatedCardID = 12345678ABCDEF
+EmulationKey = A1B2C3D4E5F6
+
+[NFC]
+EnableNFC = true
+NFCTargetType = TypeA
+NFCReadMode = Active
+EmulatedNFCTagID = 04AABBCCDD1234
