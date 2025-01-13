@@ -1,0 +1,14 @@
+# IoT Device Authorization and Deauthorization Configuration File for Flipper Zero
+
+[IoT]
+EnableIoT = true
+AutoAuthorize = true
+AutoDeauthorize = false
+TargetDeviceID = TargetIoTDevice
+AuthorizationKey = AuthKey12345
+DeauthorizationKey = DeauthKey54321
+LogFile = iot_auth_deauth_log.txt
+
+[Logging]
+EnableLogging = true
+LogLevel = Info
