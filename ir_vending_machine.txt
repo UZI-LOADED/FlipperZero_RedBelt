@@ -1,0 +1,10 @@
+# IR Signal Capture and Replay for Vending Machine
+
+[IR]
+EnableIRCapture = true
+CaptureFrequency = 38kHz
+CapturedSignal = 0xA90 0xB50 0xC30 0xD70 0xE10
+
+EnableIRReplay = true
+ReplayFrequency = 38kHz
+ReplaySignal = 0xA90 0xB50 0xC30 0xD70 0xE10
