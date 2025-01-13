@@ -1,0 +1,9 @@
+# GPIO Configuration for Car Wash System
+
+[GPIO]
+GPIO1_Mode = Output
+GPIO1_State = High
+GPIO2_Mode = Input
+GPIO2_Pull = Up
+GPIO3_Mode = Output
+GPIO3_State = Low
