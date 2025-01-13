@@ -1,0 +1,13 @@
+# RFID/NFC Universal Master Key Configuration
+
+[RFID]
+EnableEmulation = true
+EmulationType = MifareClassic
+EmulatedCardID = ABCDEF12345678
+EmulationKey = 1A2B3C4D5E6F
+
+[NFC]
+EnableNFC = true
+NFCTargetType = TypeA
+NFCReadMode = Active
+EmulatedNFCTagID = 04BBCCDDEE5678
