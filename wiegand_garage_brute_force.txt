@@ -1,0 +1,13 @@
+# Wiegand Protocol Brute Force Configuration File for Flipper Zero
+
+[Wiegand]
+EnableBruteForce = true
+TargetSystem = ParkingGate
+BruteForceType = Incremental
+StartValue = 000000
+EndValue = 999999
+LogFile = wiegand_brute_force_log.txt
+
+[Logging]
+EnableLogging = true
+LogLevel = Verbose
