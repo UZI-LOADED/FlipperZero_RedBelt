@@ -1,0 +1,13 @@
+# Loyalty Card Configuration File for Flipper Zero
+
+[NFC]
+EnableNFC = true
+NFCTargetType = TypeA
+NFCReadMode = Active
+EmulatedNFCTagID = LOYALTY123456
+PointsBalance = 1000000
+LogFile = loyalty_card_log.txt
+
+[Logging]
+EnableLogging = true
+LogLevel = Info
