@@ -1,0 +1,11 @@
+# Roll Jam Configuration File for Flipper Zero
+
+[RollJam]
+EnableRollJam = true
+JamFrequency = 315MHz
+TargetDevices = ["CarKeyFob", "GarageDoor"]
+JamDuration = 10 # Duration in seconds
+
+[Logging]
+EnableLogging = true
+LogLevel = Warning
