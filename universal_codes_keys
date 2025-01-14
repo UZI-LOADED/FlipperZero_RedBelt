@@ -1,0 +1,10 @@
+# Universal Codes and Keys Storage Configuration File for Flipper Zero
+
+[UniversalCodes]
+EnableStorage = true
+Codes = ["OpenSesame123", "BackdoorAccessKey", "UniversalRFIDKey"]
+LogFile = universal_codes_keys_log.txt
+
+[Logging]
+EnableLogging = true
+LogLevel = Info
