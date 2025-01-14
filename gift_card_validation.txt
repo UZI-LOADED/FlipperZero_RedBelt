@@ -1,0 +1,12 @@
+# Gift Card Validation Configuration File for Flipper Zero
+
+[GiftCard]
+EnableValidation = true
+ValidateBalance = true
+GiftCardID = GIFT123456789
+ValidationKey = VALIDKEY123
+LogFile = gift_card_validation_log.txt
+
+[Logging]
+EnableLogging = true
+LogLevel = Info
