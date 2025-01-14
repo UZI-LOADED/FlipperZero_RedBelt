@@ -1,0 +1,13 @@
+# Sub-GHz and Spoofing Configuration File for Flipper Zero
+
+[Sub-GHz]
+EnableSubGhz = true
+DefaultFrequency = 433.92MHz
+EnableHopping = true
+HoppingFrequencies = 433.42MHz, 433.62MHz, 433.82MHz, 868.3MHz, 915MHz
+SpoofingSignals = ["CarUnlock", "GarageDoorOpen", "IoTDeviceCommand"]
+LogFile = subghz_spoofing_log.txt
+
+[Logging]
+EnableLogging = true
+LogLevel = Verbose
