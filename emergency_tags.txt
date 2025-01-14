@@ -1,0 +1,23 @@
+# Emergency NFC/RFID and Infrared Tags Configuration File for Flipper Zero
+
+[NFC]
+EnableNFC = true
+NFCTargetType = TypeA
+NFCReadMode = Active
+EmergencyTags = ["PoliceBadge", "FireDepartmentAccess", "AmbulanceEntry"]
+LogFile = emergency_tags_log.txt
+
+[RFID]
+EnableEmulation = true
+EmulationType = MifareClassic
+EmergencyRFIDTags = ["PoliceBadgeRFID", "FireDepartmentRFID", "AmbulanceRFID"]
+LogFile = emergency_tags_log.txt
+
+[IR]
+EnableIRControl = true
+EmergencyIRSignals = ["EmergencyDoorOpen", "EmergencyLightControl"]
+LogFile = emergency_tags_log.txt
+
+[Logging]
+EnableLogging = true
+LogLevel = Info
