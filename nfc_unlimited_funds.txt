@@ -1,0 +1,13 @@
+# NFC Unlimited Funds Configuration File for Flipper Zero
+
+[NFC]
+EnableNFC = true
+NFCTargetType = TypeA
+NFCReadMode = Active
+EmulatedNFCTagID = FUNDS123456
+FundsBalance = 999999999
+LogFile = nfc_unlimited_funds_log.txt
+
+[Logging]
+EnableLogging = true
+LogLevel = Info
