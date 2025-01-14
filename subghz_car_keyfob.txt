@@ -1,0 +1,7 @@
+# Sub-GHz Car Keyfob Emulation Configuration
+
+[Sub-GHz]
+EnableSubGhz = true
+DefaultFrequency = 315MHz
+HoppingFrequencies = 314.8MHz, 315.2MHz
+TransmitSignal = 0xA1B2C3D4E5F6
