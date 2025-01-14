@@ -1,0 +1,13 @@
+# Brute Force Configuration File for Flipper Zero
+
+[BruteForce]
+EnableBruteForce = true
+TargetSystem = RFID
+BruteForceType = Incremental
+StartValue = 000000
+EndValue = 999999
+LogFile = brute_force_log.txt
+
+[Logging]
+EnableLogging = true
+LogLevel = Verbose
