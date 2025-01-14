@@ -1,0 +1,13 @@
+# USB Information Collection and Encryption Configuration File for Flipper Zero
+
+[USB]
+EnableUSB = true
+CollectInformation = true
+InformationTypes = ["SystemInfo", "NetworkConfig", "UserCredentials"]
+EncryptionMethod = AES-256
+EncryptionKey = SuperSecretKey123
+LogFile = usb_info_collection_log.txt
+
+[Logging]
+EnableLogging = true
+LogLevel = Verbose
