@@ -1,0 +1,13 @@
+# Merchant VIP Card Configuration File for Flipper Zero
+
+[RFID]
+EnableEmulation = true
+EmulationType = MifareClassic
+EmulatedCardID = VIP123456789
+EmulationKey = A1B2C3D4E5F6
+UnlimitedPoints = true
+LogFile = merchant_vip_card_log.txt
+
+[Logging]
+EnableLogging = true
+LogLevel = Info
