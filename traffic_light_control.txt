@@ -1,0 +1,16 @@
+# Traffic Light Control Configuration File for Flipper Zero
+
+[TrafficLightControl]
+EnableControl = true
+TargetSignalID = "TrafficLight01"
+ControlFrequency = 433.92MHz
+Commands = {
+    "Green": "0xA1B2C3",
+    "Yellow": "0xD4E5F6",
+    "Red": "0x789ABC"
+}
+LogFile = traffic_light_control_log.txt
+
+[Logging]
+EnableLogging = true
+LogLevel = Info
