@@ -2,9 +2,8 @@
 
 [DeviceInfo]
 DeviceName = FlipperZero
-Owner = UZI-LOADED
-FirmwareVersion = 2.0.0
-DeviceID = FLPZ12345678
+FirmwareVersion = All
+DeviceID = Red_Belt
 
 [RFID]
 # RFID card emulation settings
@@ -69,7 +68,7 @@ EnableWiFi = true
 AutoConnect = true
 TargetSSID = "TargetWiFiNetwork"
 TargetPassword = "SuperSecretPassword"
-ConnectionAttempts = 5
+ConnectionAttempts = 11
 
 [IoT]
 # IoT device control settings
