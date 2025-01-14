@@ -1,0 +1,13 @@
+# WiFi Camera Systems Configuration File for Flipper Zero
+
+[WiFiCamera]
+EnableCameraAccess = true
+TargetCameras = ["Cam01", "Cam02", "Cam03"]
+CameraIPs = ["192.168.1.101", "192.168.1.102", "192.168.1.103"]
+Username = admin
+Password = camera123
+LogFile = wifi_camera_systems_log.txt
+
+[Logging]
+EnableLogging = true
+LogLevel = Verbose
