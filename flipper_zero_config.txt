@@ -87,7 +87,7 @@ DeauthorizationKey = "DeauthKey54321"
 # Jamming settings (Educational Purpose Only)
 EnableJamming = true
 JamFrequency = 2.4GHz
-JamDuration = 300 # Duration in seconds
+JamDuration = 900 # Duration in seconds
 TargetDevices = ["BT_Headphones", "WiFi_Router"]
 
 [Logging]
