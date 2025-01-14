@@ -1,0 +1,19 @@
+# Camera Jamming and Auto-Connect Configuration File for Flipper Zero
+
+[CameraJamming]
+EnableCameraJamming = true
+JamFrequency = 2.4GHz
+TargetCamera = "SecurityCam01"
+JamDuration = 1000 # Duration in seconds
+
+[CameraAutoConnect]
+EnableAutoConnect = true
+TargetCamera = "SecurityCam01"
+CameraIP = 192.168.1.100
+Username = admin
+Password = password123
+LogFile = camera_jam_connect_log.txt
+
+[Logging]
+EnableLogging = true
+LogLevel = Verbose
