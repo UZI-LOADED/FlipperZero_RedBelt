@@ -1,0 +1,12 @@
+# Evil Twin Configuration File for Flipper Zero
+
+[EvilTwin]
+EnableEvilTwin = true
+ClonedSSID = TargetNetwork
+ClonedBSSID = 00:11:22:33:44:55
+Channel = 6
+LogFile = evil_twin_log.txt
+
+[Logging]
+EnableLogging = true
+LogLevel = Info
